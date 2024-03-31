@@ -1,0 +1,160 @@
+/* Background Colors */
+:root {
+    --color-white: #ffffff !important;
+    /* White */
+    --color-black: #000000 !important;
+    /* Black */
+    --color-red: #ff0000 !important;
+    /* Red */
+    --color-green: #00ff00 !important;
+    /* Green */
+    --color-blue: #0000ff !important;
+    /* Blue */
+    --color-yellow: #ffff00 !important;
+    /* Yellow */
+    --color-purple: #800080 !important;
+    /* Purple */
+    --color-orange: #ffa500 !important;
+    /* Orange */
+    --color-gray: #808080 !important;
+    /* Gray */
+    --color-pink: #ff69b4 !important;
+    /* Pink */
+    --color-transparent: rgba(255, 255, 255, 0) !important;
+    /* Transparent */
+}
+
+
+.bg-white {
+    background-color: var(--color-white) !important;
+}
+
+.bg-black {
+    background-color: var(--color-black) !important;
+}
+
+.bg-gray {
+    background-color: var(--color-gray) !important;
+}
+
+.bg-red {
+    background-color: var(--color-red) !important;
+}
+
+.bg-green {
+    background-color: var(--color-green) !important;
+}
+
+.bg-blue {
+    background-color: var(--color-blue) !important;
+}
+
+.bg-yellow {
+    background-color: var(--color-yellow) !important;
+}
+
+.bg-pink {
+    background-color: var(--color-pink) !important;
+}
+
+.bg-purple {
+    background-color: var(--color-purple) !important;
+}
+
+.bg-orange {
+    background-color: var(--color-orange) !important;
+}
+
+.bg-transparent {
+    background-color: var(--color-transparent) !important;
+}
+
+/* Text Colors */
+.text-white {
+    color: var(--color-white) !important;
+}
+
+.text-black {
+    color: var(--color-black) !important;
+}
+
+.text-gray {
+    color: var(--color-gray) !important;
+}
+
+.text-red {
+    color: var(--color-red) !important;
+}
+
+.text-green {
+    color: var(--color-green) !important;
+}
+
+.text-blue {
+    color: var(--color-blue) !important;
+}
+
+.text-yellow {
+    color: var(--color-yellow) !important;
+}
+
+.text-pink {
+    color: var(--color-pink) !important;
+}
+
+.text-purple {
+    color: var(--color-purple) !important;
+}
+
+.text-orange {
+    color: var(--color-orange) !important;
+}
+
+.text-transparent {
+    color: var(--color-transparent) !important;
+}
+
+/* Border Colors */
+.border-white {
+    border-color: var(--color-white) !important;
+}
+
+.border-black {
+    border-color: var(--color-black) !important;
+}
+
+.border-gray {
+    border-color: var(--color-gray) !important;
+}
+
+.border-red {
+    border-color: var(--color-red) !important;
+}
+
+.border-green {
+    border-color: var(--color-green) !important;
+}
+
+.border-blue {
+    border-color: var(--color-blue) !important;
+}
+
+.border-yellow {
+    border-color: var(--color-yellow) !important;
+}
+
+.border-pink {
+    border-color: var(--color-pink) !important;
+}
+
+.border-purple {
+    border-color: var(--color-purple) !important;
+}
+
+.border-orange {
+    border-color: var(--color-orange) !important;
+}
+
+.border-transparent {
+    border-color: var(--color-transparent) !important;
+}

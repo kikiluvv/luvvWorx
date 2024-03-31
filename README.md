@@ -13,13 +13,12 @@ react component framework made with luvv
 
 ### Navbar Generation:
 
-Import the CSS file:
+#### Import the CSS file:
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kikiluvv/luvvWorx/luvvworx/lib/styles/navbar/navbar--main.css">  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kikiluvv/luvvWorx/lib/styles/navbar/navbar--main.css">  
 ```
 
-  
-
+#### Import Navbar and pass props:
 ```jsx
 
 import React from  'react';
@@ -69,3 +68,18 @@ return (
 export  default App;
 
 ```
+
+#### Navbar Props:
+ - **menuItems**
+	 - **label**: Set the text value of the navbar menu/page item
+	 - **href**: Set the href link of the navbar menu/page item
+ - **enableDropdownMenu**: Boolean to toggle mobile view dropdown menu
+ - **enableBurgerMenu**: Boolean to toggle mobile view burger menu
+ - **enableRegister**: Boolean to toggle Login/Register buttons
+ - **onRegisterClick**: Set custom function for register button click
+ -  **onLoginClick**: Set custom function for login button click
+ - **textColor**: Set text color from CSS variable
+ - **bgColor**: Set background color from CSS variable
+ - **listStyle**: Set navbar list style 
+ - **imgSrc**: Set path of navbar logo image
+ - **imgAlt**: Set alt text of navbar logo image
